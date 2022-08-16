@@ -1,0 +1,23 @@
+.header {
+  padding: 10px 10px;
+  margin: 10px;
+  background: linear-gradient(to top, #9cbdeb 0%, #4479a7 36%, #074b72 100%);
+  border-radius: 7px;
+}
+
+.section {
+  padding: 15px;
+}
+.container {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
+
+// .loader {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+// }
