@@ -28,8 +28,8 @@ export default function Reviews() {
               <p>{review.content}</p>
             </li>
           ))}
-        {reviews.length === 0 && <p>Review is not found</p>}
       </ul>
+      {reviews.length === 0 && <p>Review is not found</p>}
       <Outlet />
     </>
   );

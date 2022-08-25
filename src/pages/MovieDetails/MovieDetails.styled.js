@@ -11,6 +11,16 @@ export const BlockInfo = styled.div`
 export const BlocLinks = styled.div`
   margin-bottom: 20px;
 `;
+export const BackButton = styled.a`
+  margin-left: 15px;
+  padding: 0px 5px;
+  font-size: 20px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  &:hover {
+    border: 3px solid red;
+  }
+`;
 
 export const Links = styled(NavLink)`
   color: #000000;

@@ -4,11 +4,9 @@ import s from './App.module.scss';
 import Navigation from './components/Navigation';
 import Loader from './components/Loader/Loader';
 
-const Home = lazy(() => import('./components/views/Home'));
-const Movie = lazy(() => import('./components/views/Movie'));
-const MovieDetailsPage = lazy(() =>
-  import('./components/views/MovieDetailsPage'),
-);
+const Home = lazy(() => import('./views/Home'));
+const Movie = lazy(() => import('./views/Movie'));
+const MovieDetailsPage = lazy(() => import('./views/MovieDetailsPage'));
 
 function App() {
   return (

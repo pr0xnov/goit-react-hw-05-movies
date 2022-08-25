@@ -1,4 +1,4 @@
-import { fetchApiCast, fetchApiReviews } from '../api';
+import { fetchApiCast, fetchApiReviews } from '../../api';
 import { Route, useParams } from 'react-router-dom';
 import { NavLink, useRouteMatch } from 'react-router-dom';
 import { useEffect, useState } from 'react';

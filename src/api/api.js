@@ -11,13 +11,13 @@ export function fetchApiDetails(id) {
   return fetch(`${BASE_URL}/movie/${id}?api_key=${KEY}&language=en-US-ru`).then(
     response => {
       return response.json();
-    },
+    }
   );
 }
 
 export function fetchApiSearch(query, page) {
   return fetch(
-    `${BASE_URL}/search/movie?api_key=${KEY}&language=en-US-ru&query=${query}&page=1&include_adult=false`,
+    `${BASE_URL}/search/movie?api_key=${KEY}&language=en-US-ru&query=${query}&page=1&include_adult=false`
   ).then(response => {
     return response.json();
   });
@@ -25,13 +25,13 @@ export function fetchApiSearch(query, page) {
 
 export function fetchApiCast(id) {
   return fetch(
-    `${BASE_URL}/movie/${id}/credits?api_key=${KEY}&language=en-US-ru`,
+    `${BASE_URL}/movie/${id}/credits?api_key=${KEY}&language=en-US-ru`
   ).then(response => {
     return response.json();
   });
 }
 export function fetchApiReviews(id, page = 1) {
   return fetch(
-    `${BASE_URL}/movie/${id}/reviews?api_key=${KEY}&language=en-US&page=${page}`,
+    `${BASE_URL}/movie/${id}/reviews?api_key=${KEY}&language=en-US&page=${page}`
   ).then(response => response.json());
 }

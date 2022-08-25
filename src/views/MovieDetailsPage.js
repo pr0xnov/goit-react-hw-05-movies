@@ -1,7 +1,7 @@
 import { useLocation, useParams, useHistory } from 'react-router';
 import { useEffect, useState } from 'react';
 import { fetchApiDetails } from '../api/api';
-import MovieMoreInfo from '../MovieMoreInfo';
+import MovieMoreInfo from '../components/MovieMoreInfo';
 import s from '../views/MovieDetailsPage.module.scss';
 
 export default function MovieDetailsPage() {

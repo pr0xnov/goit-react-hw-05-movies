@@ -27,5 +27,5 @@ export default function MovieCastDetails({ cast }) {
 }
 
 MovieCastDetails.propTypes = {
-  cast: PropTypes.array,
+  cast: PropTypes.array.isRequired,
 };

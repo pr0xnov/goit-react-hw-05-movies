@@ -4,6 +4,7 @@ import { getMovieDetails } from '../../Services/Api';
 import {
   BlockDetails,
   BlockInfo,
+  BackButton,
   Links,
   BlocLinks,
 } from './MovieDetails.styled';
@@ -40,9 +41,9 @@ export default function MovieDetails() {
 
   return (
     <>
-      <button>
-        <Link to={back}>goBack</Link>
-      </button>
+      <BackButton>
+        <Link to={back}>Back</Link>
+      </BackButton>
 
       {movies && (
         <BlockDetails>

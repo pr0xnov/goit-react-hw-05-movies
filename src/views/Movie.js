@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { fetchApiSearch } from '../api';
 import GetQueryValue from './GetQueryValue';
-import ShowMovies from '../ShowMovies/ShowMovies';
+import ShowMovies from '../components/ShowMovies/ShowMovies';
 import s from '../views/Movie.module.scss';
 
 export default function Movie() {

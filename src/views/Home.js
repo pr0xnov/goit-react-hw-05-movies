@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import ShowMovies from '../ShowMovies/ShowMovies';
+import ShowMovies from '../components/ShowMovies/ShowMovies';
 import { fetchApiTrending } from '../api';
 
 export default function Home() {
